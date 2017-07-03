@@ -7,16 +7,11 @@ export default class MessageBoard extends Component {
 
   render(){
     return(
-      <div className="panel-group">
-           <div className="panel panel-default">
-             <div className="panel-heading">Message Board</div>
-             <div className="panel-body">
-               <ul className="message-board">
-                 {this.props.children}
-               </ul>
-             </div>
+          <div className="container bot-marg">
+       <ul className="message-board">
+         {this.props.children}
+       </ul>
            </div>
-         </div>
 
     )
   }

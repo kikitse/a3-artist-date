@@ -1,0 +1,99 @@
+/* * * * * GENERAL * * * * */
+
+body {
+}
+
+html {
+  background-color: #BA68C8;
+}
+
+/* * * * * APP * * * * */
+
+.bot-marg.container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* * * * * NAVBAR * * * * */
+
+.navbar-header  {
+  text-align: center;
+}
+
+
+#allMessageBoard {
+  background: #BA68C8;
+}
+
+#validArtistDate {
+  visibility: hidden;
+}
+
+/* * * * * LOGIN * * * * */
+
+/* Login Modals */
+
+.loginModalContainer{
+  max-width: 650px;
+}
+
+.loginModalCard{
+  top: 52px;
+}
+
+.deleteModal {
+  /*width: 500px;*/
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+}
+
+.noFocus:focus {
+  outline: 0;
+}
+
+#login {
+  margin-right: 8px;
+}
+
+/* * * * * POST MESSAGE * * * * */
+
+#addArtistDate {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* DatePopup */
+
+  div.modal-background {
+    background-image: url(https://images.unsplash.com/photo-1480355781839-51097c7d4f9f?dpr=1&auto=compress,format&fit=crop&w=394&h=565&q=80&cs=tinysrgb&crop=&bg=);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+  }
+
+  .modal-card-title {
+    flex-shrink: unset;
+  }
+
+  .dateTitle {
+    line-height: 1.7;
+    font-size: 2rem;
+    margin: 1em;
+  }
+
+  .modalMargin {
+    max-width: 650px;
+    /*min-width: 180px;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ReactModal__Body--open {
+      overflow: hidden;
+      position: fixed;
+  }
